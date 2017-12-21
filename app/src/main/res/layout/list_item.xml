@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/emojiImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/emoticon_dont_tell" />
+
+    <TextView android:id="@+id/emojiName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Dont Tell"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/emojiImg"
+        android:gravity="center"
+        android:textColor="#000"
+        />
+
+
+</RelativeLayout>
